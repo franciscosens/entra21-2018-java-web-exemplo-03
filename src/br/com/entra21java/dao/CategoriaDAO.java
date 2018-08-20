@@ -1,6 +1,7 @@
 package br.com.entra21java.dao;
 
 import br.com.entra21java.bean.CategoriaBean;
+import br.com.entra21java.conexao.ConexaoFactory;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -61,8 +62,8 @@ public class CategoriaDAO {
             pstm.setString(1, categoria.getNome());
 
             pstm.execute();
-            ResultSet resultSet = pstm.getResultSet();
-            if (resultSet.last()) {
+            ResultSet resultSet = pstm.getGeneratedKeys();
+            if (resultSet.next()) {
                 return resultSet.getInt(1);
             }
         } catch (SQLException e) {

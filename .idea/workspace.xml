@@ -6,7 +6,53 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf95927f-002f-4ef1-ae8d-91cb55f53bf7" name="Default Changelist" comment="" />
+    <list default="true" id="cf95927f-002f-4ef1-ae8d-91cb55f53bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/conexao/ConexaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebExemplo03_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebExemplo03_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebExemplo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebExemplo03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/CategoriaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/CategoriaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ConexaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/web/categoria/CategoriaCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/web/categoria/CategoriaCadastro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/alteracao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/master.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/master.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/alteracao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/CategoriaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/CategoriaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ConexaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/web/categoria/CategoriaCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/web/categoria/CategoriaCadastro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/ConexaoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/conexao/Estrutura.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/categoria/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/alteracao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/categoria/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/categoria/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/master.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/produto/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/alteracao.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/produto/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/produto/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sidebar.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +64,7 @@
     <session id="191085375">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -26,32 +72,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
-          <entry key="jsp" value="15" />
-          <entry key="sql" value="2" />
+          <entry key="class" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="43" />
+          <entry key="jsp" value="42" />
+          <entry key="sql" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
-          <entry key="JSP" value="15" />
-          <entry key="SQL" value="2" />
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="43" />
+          <entry key="JSP" value="42" />
+          <entry key="SQL" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="1909" />
-          <entry key="jsp" value="212" />
-          <entry key="sql" value="492" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="2515" />
+          <entry key="jsp" value="994" />
+          <entry key="sql" value="493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1909" />
-          <entry key="JSP" value="212" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SQL" value="492" />
+          <entry key="JAVA" value="2515" />
+          <entry key="JSP" value="994" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="SQL" value="493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -61,11 +111,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/master.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            <state relative-caret-position="95">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sidebar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -75,19 +143,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>categorias</find>
       <find>categoria</find>
+      <find>Quick Example</find>
+      <find>categorias</find>
+      <find>CategoriaBean</find>
     </findStrings>
     <replaceStrings>
-      <replace>produtos</replace>
       <replace>produto</replace>
+      <replace>produtos</replace>
+      <replace>ProdutoBean</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -97,22 +168,30 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/categoria/inedx.jsp" />
-        <option value="$PROJECT_DIR$/web/categoria/alteracao.jsp" />
         <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/produto/CategoriaCadastro.java" />
         <option value="$PROJECT_DIR$/src/br/com/entra21java/bean/CategoriaBean.java" />
-        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/ConexaoFactory.java" />
         <option value="$PROJECT_DIR$/src/br/com/entra21java/bean/ProdutoBean.java" />
-        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" />
-        <option value="$PROJECT_DIR$/web/produto/index.jsp" />
-        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/Estrutura.sql" />
-        <option value="$PROJECT_DIR$/web/categoria/cadastro.jsp" />
-        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" />
-        <option value="$PROJECT_DIR$/web/categoria/index.jsp" />
         <option value="$PROJECT_DIR$/web/rodape.jsp" />
+        <option value="$PROJECT_DIR$/web/produto/alteracao.jsp" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" />
+        <option value="$PROJECT_DIR$/web/categoria/alteracao.jsp" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaStore.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/Estrutura.sql" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/ConexaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java" />
+        <option value="$PROJECT_DIR$/web/categoria/cadastro.jsp" />
+        <option value="$PROJECT_DIR$/web/categoria/index.jsp" />
+        <option value="$PROJECT_DIR$/web/produto/index.jsp" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoStore.java" />
+        <option value="$PROJECT_DIR$/web/produto/cadastro.jsp" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/sidebar.jsp" />
         <option value="$PROJECT_DIR$/web/master.jsp" />
+        <option value="$PROJECT_DIR$/web/sidebar.jsp" />
       </list>
     </option>
   </component>
@@ -183,6 +262,13 @@
               <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entra21java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,6 +278,14 @@
               <item name="entra21java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="categoria" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="produto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
@@ -215,15 +309,22 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534769433493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534774501969" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AdminLTE-2.4.5/pages/forms/general.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.entra21java.web.produto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\IdeaProjects\WebExemplo03\src\br\com\entra21java\conexao" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.entra21java.web" />
     </key>
@@ -248,6 +349,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="WebExemplo03:war exploded">
@@ -393,12 +495,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534611328008</updated>
       <workItem from="1534611333289" duration="1316000" />
-      <workItem from="1534761886478" duration="7155000" />
+      <workItem from="1534761886478" duration="12238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8471000" />
+    <option name="totallyTimeSpent" value="13554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -416,13 +518,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.55472106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.55472106" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -445,13 +547,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/categoria/alteracao.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/bean/CategoriaBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -472,115 +567,197 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/produto/alteracao.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/bean/ProdutoBean.java">
+    <entry file="file://$PROJECT_DIR$/web/categoria/alteracao.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/rodape.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/conexao/Estrutura.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+        <state relative-caret-position="493">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/ConexaoFactory.java">
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServletResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="319">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/conexao/ConexaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/produto/index.jsp">
+    <entry file="file://$USER_HOME$/Desktop/AdminLTE-2.4.5/pages/forms/general.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="146">
+          <caret line="550" column="37" selection-start-line="550" selection-start-column="37" selection-end-line="550" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/produto/cadastro.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/Estrutura.sql">
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/bean/ProdutoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="27" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/rodape.jsp">
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#234#240#0#HTML" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/categoria/cadastro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/categoria/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="97" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sidebar.jsp">
+    <entry file="file://$PROJECT_DIR$/web/produto/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="26" column="5" selection-start-line="17" selection-start-column="113" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/produto/cadastro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/categoria/cadastro.jsp">
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/master.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        <state relative-caret-position="95">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -603,7 +780,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (WebExemplo03)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -651,7 +828,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.servlet:javax.servlet-api:4.0.1</last-edited>
+          <last-edited>mysql:mysql-connector-java:8.0.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

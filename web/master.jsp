@@ -1,4 +1,3 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,16 +7,16 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="lib/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/bower_components/font-awesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="lib/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/lib/bower_components/Ionicons/css/ionicons.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="lib/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/lib/dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="lib/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="/lib/dist/css/skins/_all-skins.min.css">
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -27,7 +26,7 @@
 
     <header class="main-header">
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="/" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>A</b>LT</span>
             <!-- logo for regular state and mobile devices -->
@@ -45,14 +44,13 @@
 
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="lib/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                            <img src="/lib/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
                             <span class="hidden-xs">Francisco Lucas Sens</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="lib/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
+                                <img src="/lib/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                                 <p>
                                     Francisco Lucas Sens
                                 </p>

@@ -1,6 +1,7 @@
 package br.com.entra21java.dao;
 
 import br.com.entra21java.bean.ProdutoBean;
+import br.com.entra21java.conexao.ConexaoFactory;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -59,7 +60,7 @@ public class ProdutoDAO {
     }
 
     public int inserir(ProdutoBean produto) {
-        String sql = "INSERT INTO produtos (id_categoria, nome, preco) VALUE (?)";
+        String sql = "INSERT INTO produtos (id_categoria, nome, preco) VALUE (?,?,?)";
         try {
             PreparedStatement pstm = ConexaoFactory.conectar().prepareStatement(sql, RETURN_GENERATED_KEYS);
             pstm.setInt(1, produto.getIdCategoria());
@@ -67,7 +68,7 @@ public class ProdutoDAO {
             pstm.setDouble(3, produto.getPreco());
 
             pstm.execute();
-            ResultSet resultSet = pstm.getResultSet();
+            ResultSet resultSet = pstm.getGeneratedKeys();
             if (resultSet.last()) {
                 return resultSet.getInt(1);
             }
@@ -86,6 +87,7 @@ public class ProdutoDAO {
             pstm.setInt(1, produto.getIdCategoria());
             pstm.setString(1, produto.getNome());
             pstm.setDouble(3, produto.getPreco());
+            pstm.setDouble(4, produto.getId());
             return pstm.executeUpdate() == 1;
         } catch (SQLException e) {
             e.printStackTrace();

@@ -8,7 +8,7 @@
     <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
 
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-home"></i> <span>Principal</span></a></li>
+        <li><a href="/"><i class="fa fa-home"></i> <span>Principal</span></a></li>
         <li class="active treeview">
             <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Cadastros Básicos</span>
