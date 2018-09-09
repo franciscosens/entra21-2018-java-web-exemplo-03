@@ -43,8 +43,9 @@ public class ProdutoDAO {
         try {
             PreparedStatement pstm = ConexaoFactory.conectar().prepareStatement(sql);
             pstm.setInt(1, id);
+            pstm.execute();
             ResultSet resultSet = pstm.getResultSet();
-            while (resultSet.next()) {
+            if (resultSet.next()) {
                 produto = new ProdutoBean();
                 produto.setId(resultSet.getInt("id"));
                 produto.setIdCategoria(resultSet.getInt("id_categoria"));
@@ -85,7 +86,7 @@ public class ProdutoDAO {
         try {
             PreparedStatement pstm = ConexaoFactory.conectar().prepareStatement(sql);
             pstm.setInt(1, produto.getIdCategoria());
-            pstm.setString(1, produto.getNome());
+            pstm.setString(2, produto.getNome());
             pstm.setDouble(3, produto.getPreco());
             pstm.setDouble(4, produto.getId());
             return pstm.executeUpdate() == 1;

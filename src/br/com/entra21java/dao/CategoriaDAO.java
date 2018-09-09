@@ -41,8 +41,9 @@ public class CategoriaDAO {
         try{
             PreparedStatement pstm = ConexaoFactory.conectar().prepareStatement(sql);
             pstm.setInt(1, id);
+            pstm.execute();
             ResultSet resultSet = pstm.getResultSet();
-            while (resultSet.next()){
+            if (resultSet.next()){
                 categoria = new CategoriaBean();
                 categoria.setId(resultSet.getInt("id"));
                 categoria.setNome(resultSet.getString("nome"));

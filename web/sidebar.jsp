@@ -11,7 +11,7 @@
         <li><a href="/"><i class="fa fa-home"></i> <span>Principal</span></a></li>
         <li class="active treeview">
             <a href="#">
-                <i class="fa fa-dashboard"></i> <span>Cadastros BÃ¡sicos</span>
+                <i class="fa fa-dashboard"></i> <span>Cadastros Básicos</span>
                 <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>

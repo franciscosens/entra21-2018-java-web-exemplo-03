@@ -7,9 +7,9 @@
 <table class="table">
     <thead>
     <tr>
-        <th>C√≥digo</th>
+        <th>CÛdigo</th>
         <th>Nome</th>
-        <th>A√ß√£o</th>
+        <th>AÁ„o</th>
     </tr>
     </thead>
     <tbody>
@@ -19,16 +19,15 @@
             <td><%=categoria.getNome()%></td>
             <td>
                 <a href="/categorias/editar?id=<%=categoria.getId()%>">Editar</a>
-                <a href="/categorias/excluir?id=<%=categoria.getId()%>">Exclu√≠r</a>
             </td>
         </tr>
     <% } %>
     </tbody>
     <tfoot>
     <tr>
-        <th>C√≥digo</th>
+        <th>CÛdigo</th>
         <th>Nome</th>
-        <th>A√ß√£o</th>
+        <th>AÁ„o</th>
     </tr>
     </tfoot>
 </table>

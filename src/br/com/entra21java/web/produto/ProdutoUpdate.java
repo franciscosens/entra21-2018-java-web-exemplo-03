@@ -11,19 +11,20 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/produtos/store")
-public class ProdutoStore extends HttpServlet {
+@WebServlet("/produtos/update")
+public class ProdutoUpdate extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
-        
+
         ProdutoBean produto = new ProdutoBean();
+        produto.setId(Integer.parseInt(req.getParameter("id")));
         produto.setNome(req.getParameter("nome"));
         produto.setPreco(Double.parseDouble(req.getParameter("preco")));
         produto.setIdCategoria(Integer.parseInt(req.getParameter("categoria")));
 
-        produto.setId(new ProdutoDAO().inserir(produto));
+        new ProdutoDAO().alterar(produto);
         resp.sendRedirect("/produtos/editar?id=" + produto.getId());
     }
 

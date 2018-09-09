@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-
 @WebServlet("/produtos")
 public class ProdutoIndex extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.setContentType("text/html; charset=UTF-8");
 
         List<ProdutoBean> produtos = new ProdutoDAO().obterTodos();
 
@@ -24,5 +24,3 @@ public class ProdutoIndex extends HttpServlet {
         req.getRequestDispatcher("/produto/index.jsp").include(req, resp);
     }
 }
-
-

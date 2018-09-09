@@ -15,6 +15,8 @@ public class CategoriaStore extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("utf-8");
+        
         CategoriaBean categoria = new CategoriaBean();
         categoria.setNome(req.getParameter("nome"));
         categoria.setId(new CategoriaDAO().inserir(categoria));

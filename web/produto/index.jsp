@@ -8,10 +8,10 @@
 <table class="table">
     <thead>
     <tr>
-        <th>C√≥digo</th>
+        <th>CÛdigo</th>
         <th>Nome</th>
-        <th>Pre√ßo</th>
-        <th>A√ß√£o</th>
+        <th>PreÁo</th>
+        <th>AÁ„o</th>
     </tr>
     </thead>
     <tbody>
@@ -19,20 +19,20 @@
     <tr>
         <td><%=produto.getId()%></td>
         <td><%=produto.getNome()%></td>
-        <td><%=produto.getPreco()%></td>
+        <td>R$ <%=produto.getPreco()%></td>
         <td>
-            <a href="/categorias/editar?id=<%=produto.getId()%>">Editar</a>
-            <a href="/categorias/excluir?id=<%=produto.getId()%>">Exclu√≠r</a>
+            <a href="/produtos/editar?id=<%=produto.getId()%>">Editar</a>
+            <a href="/produtos/excluir?id=<%=produto.getId()%>">Excluir</a>
         </td>
     </tr>
     <% } %>
     </tbody>
     <tfoot>
     <tr>
-        <th>C√≥digo</th>
+         <th>CÛdigo</th>
         <th>Nome</th>
-        <th>Pre√ßo</th>
-        <th>A√ß√£o</th>
+        <th>PreÁo</th>
+        <th>AÁ„o</th>
     </tr>
     </tfoot>
 </table>

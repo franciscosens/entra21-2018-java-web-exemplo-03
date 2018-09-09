@@ -7,48 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf95927f-002f-4ef1-ae8d-91cb55f53bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/conexao/ConexaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebExemplo03_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebExemplo03_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebExemplo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebExemplo03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/CategoriaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/CategoriaDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ConexaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/dao/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/web/categoria/CategoriaCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/WEB-INF/classes/br/com/entra21java/web/categoria/CategoriaCadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/alteracao.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/cadastro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/categoria/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/master.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/master.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/alteracao.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/cadastro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/produto/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebExemplo03_war_exploded/sidebar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/CategoriaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/CategoriaDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ConexaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/dao/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/web/categoria/CategoriaCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebExemplo03/br/com/entra21java/web/categoria/CategoriaCadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/dao/CategoriaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/ConexaoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/Estrutura.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/conexao/Estrutura.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/conexao/ConexaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/conexao/ConexaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaAlteracao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/categoria/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/alteracao.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/categoria/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/cadastro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/categoria/CategoriaIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/entra21java/web/produto/ProdutoIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/categoria/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/categoria/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/master.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/master.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/produto/alteracao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/alteracao.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/produto/cadastro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/cadastro.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/produto/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/produto/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sidebar.jsp" afterDir="false" />
@@ -64,17 +33,19 @@
     <session id="191085375">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="43" />
+          <entry key="java" value="44" />
           <entry key="jsp" value="42" />
           <entry key="sql" value="4" />
         </counts>
@@ -83,7 +54,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="44" />
           <entry key="JSP" value="42" />
           <entry key="SQL" value="4" />
         </counts>
@@ -91,15 +62,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="java" value="2515" />
-          <entry key="jsp" value="994" />
+          <entry key="java" value="2614" />
+          <entry key="jsp" value="1222" />
           <entry key="sql" value="493" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2515" />
-          <entry key="JSP" value="994" />
+          <entry key="JAVA" value="2614" />
+          <entry key="JSP" value="1222" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SQL" value="493" />
         </counts>
@@ -110,12 +81,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/master.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="1156">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -123,8 +94,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/sidebar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -191,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/br/com/entra21java/dao/ProdutoDAO.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/master.jsp" />
+        <option value="$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java" />
         <option value="$PROJECT_DIR$/web/sidebar.jsp" />
       </list>
     </option>
@@ -210,6 +191,19 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/Flot/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/chart.js/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/eve-raphael/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/build/web/lib/bower_components/select2/package.json" />
       <path value="$PROJECT_DIR$/web/lib/bower_components/Flot/package.json" />
       <path value="$PROJECT_DIR$/web/lib/bower_components/bootstrap-datepicker/package.json" />
       <path value="$PROJECT_DIR$/web/lib/bower_components/bootstrap-daterangepicker/package.json" />
@@ -226,10 +220,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="25" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,36 +251,6 @@
             <path>
               <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="categoria" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entra21java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="produto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebExemplo03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebExemplo03" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +261,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -309,11 +272,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534774501969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534851480655" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AdminLTE-2.4.5/pages/forms/general.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
@@ -348,8 +311,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="WebExemplo03:war exploded">
@@ -359,7 +321,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebExemplo03" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebExemplo03_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -496,17 +458,18 @@
       <updated>1534611328008</updated>
       <workItem from="1534611333289" duration="1316000" />
       <workItem from="1534761886478" duration="12238000" />
+      <workItem from="1534847721275" duration="2663000" />
+      <workItem from="1535843647227" duration="238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13554000" />
+    <option name="totallyTimeSpent" value="16455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,12 +477,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3111588" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.55472106" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.56013" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,6 +489,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3111588" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -545,6 +508,38 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>request.getAttribute(&quot;javax.servlet.forward.request_uri&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getAttribute(&quot;javax.servlet.forward.request_uri&quot;).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/bean/CategoriaBean.java">
@@ -590,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +717,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/entra21java/MyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -747,17 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/master.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -828,7 +815,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql:mysql-connector-java:8.0.12</last-edited>
+          <last-edited>com.google.cloud.sql:mysql-socket-factory-connector-j-8:1.0.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

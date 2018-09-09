@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS exemplo_web_03;
-CREATE DATABASE exemplo_web_03;
-USE exemplo_web_03;
+DROP DATABASE IF EXISTS WebExemplo03;
+CREATE DATABASE WebExemplo03;
+USE WebExemplo03;
 
 
 CREATE TABLE categorias (

@@ -17,7 +17,7 @@
         <input type="text" class="form-control" name="nome" id="campo-nome">
     </div>
     <div class="form-group">
-        <label for="campo-preco">PreÃ§o</label>
+        <label for="campo-preco">Preço</label>
         <input type="text" class="form-control" name="preco" id="campo-preco">
     </div>
     <div>
